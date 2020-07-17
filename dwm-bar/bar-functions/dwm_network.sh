@@ -7,13 +7,6 @@
 # Dependencies: connman
 
 dwm_network () {
-    # printf "%s" "$SEP1"
-    # if [ "$IDENTIFIER" = "unicode" ]; then
-    #     printf "🌐 "
-    # else
-    #     printf "NET "
-    # fi
-
     # get the connmanctl service name
     # this is a UID starting with 'vpn_', 'wifi_', or 'ethernet_', we dont care for the vpn one
     # if the servicename string is empty, there is no online connection
